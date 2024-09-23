@@ -9,6 +9,7 @@
 6. [Troubleshooting](#troubleshooting)
 7. [Future Improvements](#future-improvements)
 8. [Screen Shots](#Screen-Shots)
+9. [Report of Brief: Adopted, Challenges](#Report-of-Brief-Adopted-Challenges)
 
 ## 1. System Overview
 The Crypto Price Alert System is a Flask-based web application that allows users to set price alerts for various cryptocurrencies. When the price of a cryptocurrency crosses a user-defined threshold, the system sends an email alert to the user.
@@ -171,7 +172,8 @@ The `app.py` file contains the main application code. Here's a breakdown of its 
      - # Result Crypto Price Alert System Documentation
      - ![Output Crypto Price Alter System](https://github.com/user-attachments/assets/1cc81774-b386-4994-901d-ef8419898be8)
 
-     
+## 9.Report of Brief: Adopted, Challenges
 
-
-
+      - However, in making the Crypto Price Alert System, I wanted to create for an easy to use service where users can manage and monitor these cryptocurrency prices of their choice and get alerted if price crosses a user defined threshold. I used Flask for the web interface and APScheduler to periodically check the prices. I used the CoinGecko API to grab real-time data on crypto pricing and sent email alerts through SMTP with Gmail. The library project also uses Python's requests library for making reliable http requests, and has built-in automatic retries and error handling for robustness.
+         
+      - One of the main difficulties was to perform an efficient periodic price checking however keep the system responsive. To that end, they put APScheduler to use as a timed tasks handler and started checking current prices of animals every 5 minutes without locking the main application. Setting up the email alert system also had some initial hurdles in getting it to work with Gmail's 2-step verification and security settings, but we ultimately got that working too by using the python-dotenv library for storing the email credentials in a secure way. We notice that the system is well able to fulfill its objectives with respect to monitoring prices (triggering alerts) but there can still be areas of improvement like a more sophisticated frontend and an option for notification over various media.
