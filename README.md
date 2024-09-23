@@ -8,6 +8,7 @@
 5. [Usage Guide](#usage-guide)
 6. [Troubleshooting](#troubleshooting)
 7. [Future Improvements](#future-improvements)
+8. [Screen Shots](#Screen-Shots)
 
 ## 1. System Overview
 The Crypto Price Alert System is a Flask-based web application that allows users to set price alerts for various cryptocurrencies. When the price of a cryptocurrency crosses a user-defined threshold, the system sends an email alert to the user.
@@ -159,3 +160,9 @@ The `app.py` file contains the main application code. Here's a breakdown of its 
 - Add support for more cryptocurrencies and multiple fiat currencies
 - Implement webhook notifications in addition to email alerts
 - Add unit tests and integration tests for improved reliability
+
+## 8. Screen Shots
+   - # Backend Crypto Price Alert System Documentation
+   - ![Backend Crypto Price Alter System](https://github.com/user-attachments/assets/620de5e8-52ea-4eac-8f98-0ec761f588a6)
+
+
