@@ -26,7 +26,23 @@ Key features:
 - A Gmail account for sending email alerts
 
 ## 3. Setup Instructions
-1. Clone the repository or create a new directory for the project.
+1. Clone the repository or create a new directory for the project in Vs Code.
+      ```
+   Steps 1. Open VS Code
+
+   Steps 2. Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac) to open the Command Palette
+
+   Steps 3. Type "Git: Clone" and select it
+
+   Steps 4. Paste the GitHub repository URL and press Enter
+
+   Steps 5. Choose a local folder for the cloned repository
+
+   Steps 6. Click "Open" when prompted to open the cloned repository
+
+   You're done! The repository is now cloned and open in VS Code.
+   ```
+
 2. Create a virtual environment (optional but recommended):
    ```
    python -m venv venv
